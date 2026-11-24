@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2 id="head1">Welcome to DOM Basics</h2>
+    <div id="grp1">
+
+    </div>
+    <p>Para1</p>
+    <p>Para2</p>
+    <ul>
+        <li class="lchild">Apple</li>
+        <li class="lchild">Orange</li>
+        <li class="lchild">banana</li>
+
+    </ul>
+    
+<form onsubmit="return validate()">
+    <label for ="Email">Email</label><br>
+    <input type="email" name="" id="email" onfocus="focusn()" required> <br>
+    <span id="error"></span>
+    <label for="Password">Password</label><br>
+    <input type="password" name="" id="pwd" required><br>
+    <button>Submit</button>
+</form> 
+<br><br>
+     <input type="text" name="" id="text3" onfocus="focusn()" ><br>
+    <input type="text" name="" id="text1" onkeyup="display(event)" onfocus="focusn()" onblur="blurr">
+
+    <input type="text" name="" id="text2" onkeydown="display(event)">
+
+
+
+<!-- ================================ WEEK 2 ================================ -->
+
+
+    <button onclick="show()">Click Me</button><br>
+    
+    <label>Enter any number between 5 and 10</label><br>
+    <input type="text" name="" id="num"><br>
+    <small id="errmssg"></small>
+    <button onclick="verify()">Click me</button>
+
+    <script src="events.js"></script>
+</body>
+</html>
